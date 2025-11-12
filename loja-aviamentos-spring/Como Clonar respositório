@@ -1,0 +1,47 @@
+** 🔗 Como Clonar**
+
+*** 1. Faça um fork do repositório***
+
+- Entre neste link: [Projeto avaiamentos](https://github.com/karizeviecelli/loja-aviamentos-spring/).
+
+- Clique no botão **Fork** no canto superior direito.
+- Agora você terá uma cópia do projeto no seu perfil do GitHub.
+
+
+### 2. Clone o repositório forkado
+No terminal do seu computador, rode o comando:
+```bash
+git clone https://github.com/seu-usuario/projeto_Saep.git
+```
+*(Troque `seu-usuario` pelo seu nome de usuário do GitHub.)*
+
+---
+### 3. Crie uma branch para sua tarefa
+```bash
+git checkout -b minha-tarefa
+```
+
+
+### 4. Faça suas alterações
+- Edite, adicione ou crie novos arquivos conforme orientação da professora.
+- Siga a estrutura de pastas definida no projeto.
+
+
+### 5. Salve suas mudanças
+```bash
+git add .
+git commit -m "Descrição clara do que foi alterado"
+```
+
+
+### 6. Envie para o GitHub
+```bash
+git push origin minha-tarefa
+```
+
+
+### 7. Abra um Pull Request (PR)
+- No seu repositório forkado, clique em **Compare & Pull Request**.
+- Escreva um resumo do que você fez.
+- Clique em **Create Pull Request** para enviar sua contribuição ao projeto principal.
+---
